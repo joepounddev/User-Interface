@@ -130,15 +130,18 @@ img {
     display: inline-block;
     width: 175px;
     text-align: center;
+    font-family: var(--body-font-family);
+    font-size: 1.75rem;
+    letter-spacing: 0.5px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
     border: 1px solid black;
     padding: 7.5px 0 7.5px 0.5px;
     margin: 20px 0;
 }
 
-.home__intro__content__get-started-btn > a {
-    font-family: var(--body-font-family);
-    font-size: 1.75rem;
-    letter-spacing: 0.5px;
+.home__intro__content__get-started-btn:visited {
     color: black;
     text-decoration: none;
 }
