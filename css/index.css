@@ -1,2 +1,73 @@
 @import 'reset.css';
 @import 'variables.css';
+
+/* Global styles */
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Heading tag elements  with this class are used inside some semantic elements 
+   to prevent the HTML5 outline from showing an "Untitled Section" */
+.outliner-aid {
+    display: none;
+}
+
+.page-container {
+    width: 90%;
+    max-width: 875px;
+    margin: 20px auto;
+}
+
+/* Top nav styles */
+
+.top-nav {
+    position: relative;
+}
+
+.top-nav > * {
+    height: 50px;
+}
+
+.top-nav__menu {
+    display: inline-block;
+}
+
+.top-nav__menu__item {
+    display: inline-block;
+    font-family: var(--body-font-family);
+    font-size: 1.4rem;
+    padding: 18px 0;
+    margin-right: 63.75px;
+}
+
+.top-nav__menu__item > a {
+    color: black;
+    text-decoration: none;
+}
+
+.top-nav__logo {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: inline-block;
+    width: 183px;
+    height: 36px;
+    background-image: url("../images/top-nav/logo.png");
+}
