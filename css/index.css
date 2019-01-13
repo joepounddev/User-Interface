@@ -200,20 +200,21 @@ img {
 
 .home__overviews__2-col-block__item {
     display: inline-block;
-    width: 49.5%;
-    margin-right: 0.5%;
+    width: 45%;
+    margin-right: 7.5%;
 }
 
 .home__overviews__banner {
     height: 182px;
     background-image: url(../images//home//mid-page-accent.jpg);
+    background-position: center;
     margin: 35px auto;
 }
 
 .home__overviews__3-col-block__item {
     display: inline-block;
-    width: 33%;
-    margin-right: 0.15%;
+    width: 30%;
+    margin-right: 3.75%;
 }
 
 .home__overviews__2-col-block,
@@ -254,4 +255,51 @@ img {
 
 .home__contact__details > * {
     margin-bottom: 22.5px;
+}
+
+@media (max-width: 800px) {
+    .top-nav {
+        height: 140px;
+    }
+
+    .top-nav > * {
+        float: none;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .top-nav__menu, .top-nav__logo {
+        display: block;
+    }
+
+    .top-nav__logo {
+        height: 36px;
+        margin-bottom: 10px;
+    }
+
+    .top-nav__menu {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .top-nav__menu__item, .top-nav__menu__item:last-child {
+        margin: 0 12.5px; 
+    }    
+
+    .home__intro > * {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    .home__overviews {
+        padding: 7.5px 0;
+    }
+
+    .home__overviews__2-col-block__item,
+    .home__overviews__3-col-block__item {
+        display: block;
+        width: 100%;
+        margin: 50px 0;
+    }
 }
