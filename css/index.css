@@ -158,7 +158,7 @@ img {
     padding: 7.5px 0 7.5px 0.5px;
     margin: 20px 0;
     transition-duration: 500ms;
-    transition-property: background-color, color, box-shadow, transform;
+    transition-property: background-color, font-weight, color, box-shadow, transform;
 }
 
 .home__intro__content__get-started-btn:visited {
@@ -329,28 +329,25 @@ img {
     .top-nav__menu__item {
         display: block;
         padding: 18.75px 0;
-        border-top: 1px solid black;
+        border-top: 1px solid var(--top-nav-item-border-color);
         transition-duration: 375ms;
         transition-property: background-color, color, transform;
     }
 
-    .top-nav__menu__item:hover > a {
-        display: block;
+    .top-nav__menu__item:last-child {
+        border-bottom: 1px solid var(--top-nav-item-border-color);
     }
-    
+
     .top-nav__menu__item:hover {
-        background-color: black;
+        background-color: var(--top-nav-item-hover-bg-color);
         transform: scale(1.1);
         transition-duration: 375ms;
         transition-property: all;
     }
 
     .top-nav__menu__item:hover > a {
-        color: white;
-    }
-    
-    .top-nav__menu__item:last-child {
-        border-bottom: 1px solid black;
+        display: block;
+        color: var(--top-nav-item-hover-font-color);
     }
 
     /* Home page styles */
