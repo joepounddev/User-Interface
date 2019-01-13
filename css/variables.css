@@ -3,6 +3,19 @@
     --body-font-family: "Titillium Web";
     --heading-font-family: "Bangers";
 
-    /* Color values */
+    /* Top nav color assignments */
+    --top-nav-bg-color: var(--white);
+    --top-nav-border-color: var(--lightgrey);
+    --top-nav-item-font-color: var(--black);
 
+    /* Home color assignments */
+    --get-started-btn-bg-color: var(--white);
+    --get-started-btn-font-color: var(--black);
+    --get-started-btn-border-color: var(--black);
+    --home-overviews-border-color: var(--black);
+
+    /* Color values */
+    --white: #FFFFFF;
+    --lightgrey: #D3D3D3;
+    --black: #000000;
 }

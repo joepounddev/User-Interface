@@ -44,9 +44,9 @@ img {
     width: 90%;
     max-width: 875px;
     height: 70px;
-    background-color: white;
+    background-color: var(--top-nav-bg-color);
     padding-top: 20px;
-    border-bottom: 1.5px dashed lightgrey;
+    border-bottom: 1.5px dashed var(--top-nav-border-color);
 }
 
 .top-nav > * {
@@ -71,7 +71,7 @@ img {
 }
 
 .top-nav__menu__item > a {
-    color: black;
+    color: var(--top-nav-item-font-color);
     text-decoration: none;
 }
 
@@ -129,20 +129,21 @@ img {
 .home__intro__content__get-started-btn {
     display: inline-block;
     width: 175px;
+    background-color: var(--get-started-btn-bg-color);
     text-align: center;
     font-family: var(--body-font-family);
     font-size: 1.75rem;
     letter-spacing: 0.5px;
-    color: black;
+    color: var(--get-started-btn-font-color);
     text-decoration: none;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid var(--get-started-btn-border-color);
     padding: 7.5px 0 7.5px 0.5px;
     margin: 20px 0;
 }
 
 .home__intro__content__get-started-btn:visited {
-    color: black;
+    color: var(--get-started-btn-font-color);
     text-decoration: none;
 }
 
@@ -157,8 +158,8 @@ img {
 
 .home__overviews {
     padding: 22.5px 0 25px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid var(--home-overviews-border-color);
+    border-bottom: 1px solid var(--home-overviews-border-color);
 }
 
 .home__overviews__2-col-block__item {
