@@ -64,6 +64,14 @@ img {
     font-size: 1.4rem;
     padding: 12.5px 0;
     margin-right: 7.5%; 
+    transition-duration: 375ms;
+    transition-property: transform;
+}
+
+.top-nav__menu__item:hover {
+    transform: scale(1.25);
+    transition-duration: 375ms;
+    transition-property: all;
 }
 
 .top-nav__menu__item:last-child {
@@ -84,6 +92,14 @@ img {
     background-repeat: no-repeat;
     vertical-align: top;
     padding-top: 7px;
+    transition-duration: 375ms;
+    transition-property: transform;
+}
+
+.top-nav__logo:hover {
+    transform: scale(1.1);
+    transition-duration: 375ms;
+    transition-property: all;
 }
 
 /* Footer styles */
@@ -137,14 +153,34 @@ img {
     color: var(--get-started-btn-font-color);
     text-decoration: none;
     cursor: pointer;
+    box-shadow: 1px 0.75px 0.5px;
     border: 1px solid var(--get-started-btn-border-color);
     padding: 7.5px 0 7.5px 0.5px;
     margin: 20px 0;
+    transition-duration: 500ms;
+    transition-property: background-color, color, box-shadow, transform;
 }
 
 .home__intro__content__get-started-btn:visited {
     color: var(--get-started-btn-font-color);
     text-decoration: none;
+}
+
+.home__intro__content__get-started-btn:hover {
+    background-color: var(--get-started-btn-hover-bg-color);
+    font-weight: bold;
+    color: var(--get-started-btn-hover-font-color);
+    box-shadow: 3px 2.5px 1px;
+    transform: scale(1.05);
+    transition-duration: 500ms;
+    transition-property: all;
+}
+
+.home__intro__content__get-started-btn:active {
+    box-shadow: inset 0 0.5px;
+    transform: scale(1.04);
+    transition-duration: 125ms;
+    transition-property: all;
 }
 
 .home__intro__image {
