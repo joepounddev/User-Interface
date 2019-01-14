@@ -338,7 +338,8 @@ img {
     /* Contains transitions for color change and scale-down effects */
     .top-nav__menu__item {
         display: block;
-        padding: 18.75px 0;
+        padding: 0;
+        margin: 0;
         border-top: 1px solid var(--top-nav-item-border-color);
         transition-duration: 375ms;
         transition-property: background-color, color, transform;
@@ -346,6 +347,12 @@ img {
 
     .top-nav__menu__item:last-child {
         border-bottom: 1px solid var(--top-nav-item-border-color);
+        margin: 0;
+    }
+
+    .top-nav__menu__item  > a {
+        display: block;
+        padding: 18.75px 0;
     }
 
     /* Contains transitions for color change and scale-up effects */
@@ -357,7 +364,6 @@ img {
     }
 
     .top-nav__menu__item:hover > a {
-        display: block;
         color: var(--top-nav-item-hover-font-color);
     }
 
