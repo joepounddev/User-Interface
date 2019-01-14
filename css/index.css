@@ -264,6 +264,7 @@ img {
     margin-bottom: 22.5px;
 }
 
+/* Approximated media query for tablet view styling */
 @media (max-width: 800px) {
     /* Top nav styles */
 
@@ -315,6 +316,7 @@ img {
     }
 }
 
+/* Approximated media query for mobile view styling */
 @media (max-width: 500px) {
     /* Top nav styles */
 
