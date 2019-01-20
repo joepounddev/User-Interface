@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "variables.css";
+@import "animations.css";
 
 /* Global styles */
 
@@ -159,6 +160,8 @@ img {
   font-weight: bold;
   letter-spacing: 5px;
   padding-left: 5px;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 /* Contains transitions for color change and scale-down effects */
@@ -184,10 +187,16 @@ img {
     -webkit-box-shadow, -webkit-transform;
   transition-property: background-color, font-weight, color, -webkit-box-shadow,
     -webkit-transform;
+  -webkit-transition-property: background-color, font-weight, color,
+    -webkit-box-shadow, -webkit-transform;
   transition-property: background-color, font-weight, color, box-shadow,
     transform;
   transition-property: background-color, font-weight, color, box-shadow,
     transform, -webkit-box-shadow, -webkit-transform;
+  transition-property: background-color, font-weight, color, box-shadow,
+    transform, -webkit-box-shadow, -webkit-transform;
+  -webkit-animation: fadeIn 1.25s 0.5s, shakingPulse 1s 0.5s backwards;
+  animation: fadeIn 1.25s 0.5s, shakingPulse 1s 0.5s backwards;
 }
 
 .home__intro__content__get-started-btn:visited {
@@ -229,6 +238,8 @@ img {
   background-repeat: no-repeat;
   vertical-align: top;
   padding: 0.5px 0;
+  -webkit-animation: expand 1s;
+  animation: expand 1s;
 }
 
 .home__overviews {
