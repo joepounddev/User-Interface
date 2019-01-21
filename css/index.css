@@ -189,14 +189,18 @@ img {
     -webkit-transform;
   -webkit-transition-property: background-color, font-weight, color,
     -webkit-box-shadow, -webkit-transform;
+  -webkit-transition-property: background-color, font-weight, color,
+    -webkit-box-shadow, -webkit-transform;
   transition-property: background-color, font-weight, color, box-shadow,
     transform;
   transition-property: background-color, font-weight, color, box-shadow,
     transform, -webkit-box-shadow, -webkit-transform;
   transition-property: background-color, font-weight, color, box-shadow,
     transform, -webkit-box-shadow, -webkit-transform;
-  -webkit-animation: fadeIn 1.25s 0.5s, shakingPulse 1s 0.5s backwards;
-  animation: fadeIn 1.25s 0.5s, shakingPulse 1s 0.5s backwards;
+  transition-property: background-color, font-weight, color, box-shadow,
+    transform, -webkit-box-shadow, -webkit-transform;
+  -webkit-animation: fadeIn 1.25s 0.5s backwards, shakingPulse 1s 0.5s;
+  animation: fadeIn 1.25s 0.5s backwards, shakingPulse 1s 0.5s;
 }
 
 .home__intro__content__get-started-btn:visited {

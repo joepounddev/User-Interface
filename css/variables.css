@@ -1,28 +1,28 @@
 :root {
-    /* Global font assignments */
-    --body-font-family: "Titillium Web";
-    --heading-font-family: "Bangers";
+  /* Global font assignments */
+  --body-font-family: "Titillium Web";
+  --heading-font-family: "Bangers";
 
-    /* Top nav color assignments */
-    --top-nav-bg-color: var(--white);
-    --top-nav-border-color: var(--lightgrey);
-    --top-nav-item-font-color: var(--black);
-    --top-nav-item-border-color: var(--black);
-    --top-nav-item-hover-bg-color: var(--black);
-    --top-nav-item-hover-font-color: var(--white);
+  /* Top nav color assignments */
+  --top-nav-bg-color: var(--white);
+  --top-nav-border-color: var(--lightgrey);
+  --top-nav-item-font-color: var(--black);
+  --top-nav-item-border-color: var(--black);
+  --top-nav-item-hover-bg-color: var(--black);
+  --top-nav-item-hover-font-color: var(--white);
 
-    /* Home color assignments */
-    --get-started-btn-bg-color: var(--white);
-    --get-started-btn-font-color: var(--black);
-    --get-started-btn-border-color: var(--black);
-    --get-started-btn-hover-bg-color: var(--mine-shaft);
-    --get-started-btn-hover-font-color: var(--silver);
-    --home-overviews-border-color: var(--black);
+  /* Home color assignments */
+  --get-started-btn-bg-color: var(--white);
+  --get-started-btn-font-color: var(--black);
+  --get-started-btn-border-color: var(--black);
+  --get-started-btn-hover-bg-color: var(--mine-shaft);
+  --get-started-btn-hover-font-color: var(--silver);
+  --home-overviews-border-color: var(--black);
 
-    /* Color values */
-    --white: #FFFFFF;
-    --lightgrey: #D3D3D3;
-    --black: #000000;
-    --mine-shaft: #222222;
-    --silver: #C0C0C0;
+  /* Color values */
+  --white: #ffffff;
+  --lightgrey: #d3d3d3;
+  --black: #000000;
+  --mine-shaft: #222222;
+  --silver: #c0c0c0;
 }
