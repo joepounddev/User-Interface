@@ -21,7 +21,7 @@ img {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  fbox-sizing: border-box;
 }
 
 /* Heading tag elements  with this class are used inside some semantic elements 
@@ -67,22 +67,19 @@ img {
   font-size: 1.4rem;
   padding: 12.5px 0;
   margin-right: 7.5%;
-  -webkit-transition-duration: 375ms;
-  transition-duration: 375ms;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
+  -webkit-transition: -webkit-transform 375ms;
+  transition: -webkit-transform 375ms;
+  /* autoprefixer: ignore next */
+  transition: transform 375ms;
+  transition: transform 375ms, -webkit-transform 375ms;
 }
 
 /* Contains transitions for scale-up effect */
 .top-nav__menu__item:hover {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
-  -webkit-transition-duration: 375ms;
-  transition-duration: 375ms;
-  -webkit-transition-property: all;
-  transition-property: all;
+  -webkit-transition: all 375ms;
+  transition: all 375ms;
 }
 
 .top-nav__menu__item:last-child {
@@ -104,22 +101,19 @@ img {
   background-repeat: no-repeat;
   vertical-align: top;
   padding-top: 7px;
-  -webkit-transition-duration: 375ms;
-  transition-duration: 375ms;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
+  -webkit-transition: -webkit-transform 375ms;
+  transition: -webkit-transform 375ms;
+  /* autoprefixer: ignore next */
+  transition: transform 375ms;
+  transition: transform 375ms, -webkit-transform 375ms;
 }
 
 /* Contains transitions for scale-up effect */
 .top-nav__logo:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition-duration: 375ms;
-  transition-duration: 375ms;
-  -webkit-transition-property: all;
-  transition-property: all;
+  -webkit-transition: all 375ms;
+  transition: all 375ms;
 }
 
 /* Footer styles */
@@ -181,26 +175,18 @@ img {
   border: 1px solid var(--get-started-btn-border-color);
   padding: 7.5px 0 7.5px 0.5px;
   margin: 20px 0;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  -webkit-transition-property: background-color, font-weight, color,
-    -webkit-box-shadow, -webkit-transform;
-  transition-property: background-color, font-weight, color, -webkit-box-shadow,
-    -webkit-transform;
-  -webkit-transition-property: background-color, font-weight, color,
-    -webkit-box-shadow, -webkit-transform;
-  -webkit-transition-property: background-color, font-weight, color,
-    -webkit-box-shadow, -webkit-transform;
-  transition-property: background-color, font-weight, color, box-shadow,
-    transform;
-  transition-property: background-color, font-weight, color, box-shadow,
-    transform, -webkit-box-shadow, -webkit-transform;
-  transition-property: background-color, font-weight, color, box-shadow,
-    transform, -webkit-box-shadow, -webkit-transform;
-  transition-property: background-color, font-weight, color, box-shadow,
-    transform, -webkit-box-shadow, -webkit-transform;
   -webkit-animation: fadeIn 1.25s 0.5s backwards, shakingPulse 1s 0.5s;
   animation: fadeIn 1.25s 0.5s backwards, shakingPulse 1s 0.5s;
+  -webkit-transition: background-color 500ms, font-weight 500ms, color 500ms,
+    -webkit-box-shadow 500ms, -webkit-transform 500ms;
+  transition: background-color 500ms, font-weight 500ms, color 500ms,
+    -webkit-box-shadow 500ms, -webkit-transform 500ms;
+  /* autoprefixer: ignore next */
+  transition: background-color 500ms, font-weight 500ms, color 500ms,
+    box-shadow 500ms, transform 500ms;
+  transition: background-color 500ms, font-weight 500ms, color 500ms,
+    box-shadow 500ms, transform 500ms, -webkit-box-shadow 500ms,
+    -webkit-transform 500ms;
 }
 
 .home__intro__content__get-started-btn:visited {
@@ -217,10 +203,8 @@ img {
   box-shadow: 3px 2.5px 1px;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  -webkit-transition-property: all;
-  transition-property: all;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
 }
 
 /* Contains transitions for simple button press effect */
@@ -229,10 +213,8 @@ img {
   box-shadow: inset 0 0.5px;
   -webkit-transform: scale(1.04);
   transform: scale(1.04);
-  -webkit-transition-duration: 125ms;
-  transition-duration: 125ms;
-  -webkit-transition-property: all;
-  transition-property: all;
+  -webkit-transition: all 125ms;
+  transition: all 125ms;
 }
 
 .home__intro__image {
@@ -390,12 +372,13 @@ img {
     padding: 0;
     margin: 0;
     border-top: 1px solid var(--top-nav-item-border-color);
-    -webkit-transition-duration: 375ms;
-    transition-duration: 375ms;
-    -webkit-transition-property: background-color, color, -webkit-transform;
-    transition-property: background-color, color, -webkit-transform;
-    transition-property: background-color, color, transform;
-    transition-property: background-color, color, transform, -webkit-transform;
+    -webkit-transition: background-color 375ms, color 375ms,
+      -webkit-transform 375ms;
+    transition: background-color 375ms, color 375ms, -webkit-transform 375ms;
+    /* autoprefixer: ignore next */
+    transition: background-color 375ms, color 375ms, transform 375ms;
+    transition: background-color 375ms, color 375ms, transform 375ms,
+      -webkit-transform 375ms;
   }
 
   .top-nav__menu__item:last-child {
@@ -413,10 +396,8 @@ img {
     background-color: var(--top-nav-item-hover-bg-color);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-    -webkit-transition-duration: 375ms;
-    transition-duration: 375ms;
-    -webkit-transition-property: all;
-    transition-property: all;
+    -webkit-transition: all 375ms;
+    transition: all 375ms;
   }
 
   .top-nav__menu__item:hover > a {
