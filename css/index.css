@@ -27,7 +27,15 @@ img {
 /* Heading tag elements  with this class are used inside some semantic elements 
    to prevent the HTML5 outline from showing an "Untitled Section" */
 .outliner-aid {
-  display: none;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; /* added line */
+  width: 1px;
 }
 
 .page-container {
