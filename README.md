@@ -3,7 +3,7 @@
 ## Content
 A sample web site for a fictional web development company named Great Idea.
 
-URL: https://joepound-ls-ui2-great-idea.netlify.com/
+URL: https://joepound-ls-ui2-great-idea.netlify.com
 
 #### Warning:
 _Be advised that this site is purposefully made with only a home page, since it was intended to be an exercise in styling without the newer CSS3 display layouts._
@@ -16,4 +16,4 @@ _A repo with a more complete site version of this site can be found here: https:
 * **Responsive design** that is _desktop-friendly_, _tablet-friendly_, and _mobile-friendly_
 
 ## Disclaimers
-* All images sourced from https://www.pexels.com/
+* All images sourced from https://www.pexels.com
