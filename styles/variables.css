@@ -1,7 +1,7 @@
 :root {
   /* Global font assignments */
-  --body-font-family: "Titillium Web";
-  --heading-font-family: "Bangers";
+  --body-font-family: 'Titillium Web';
+  --heading-font-family: 'Bangers';
 
   /* Top nav color assignments */
   --top-nav-bg-color: var(--white);
@@ -20,9 +20,9 @@
   --home-overviews-border-color: var(--black);
 
   /* Color values */
-  --white: #ffffff;
+  --white: #fff;
   --lightgrey: #d3d3d3;
-  --black: #000000;
-  --mine-shaft: #222222;
+  --black: #000;
+  --mine-shaft: #222;
   --silver: #c0c0c0;
 }

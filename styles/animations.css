@@ -4,44 +4,53 @@
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   to {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
+
 @keyframes expand {
   from {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   to {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
 }
+
 /* Fade-in animation */
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
+
 /* Shake effect with expand effect rising briefly above normal (to 125% size) */
 @-webkit-keyframes shakingPulse {
   20% {
     -webkit-transform: rotate(-5deg) scale(0.9);
     transform: rotate(-5deg) scale(0.9);
   }
+
   30%,
   50%,
   70%,
@@ -49,6 +58,7 @@
     -webkit-transform: rotate(5deg) scale(1.25);
     transform: rotate(5deg) scale(1.25);
   }
+
   40%,
   60%,
   80% {
@@ -56,11 +66,13 @@
     transform: rotate(-5deg) scale(1.25);
   }
 }
+
 @keyframes shakingPulse {
   20% {
     -webkit-transform: rotate(-5deg) scale(0.9);
     transform: rotate(-5deg) scale(0.9);
   }
+
   30%,
   50%,
   70%,
@@ -68,6 +80,7 @@
     -webkit-transform: rotate(5deg) scale(1.25);
     transform: rotate(5deg) scale(1.25);
   }
+
   40%,
   60%,
   80% {
