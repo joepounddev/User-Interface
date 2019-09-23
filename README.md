@@ -4,7 +4,9 @@
 
 A sample web site for a fictional web development company named Great Idea.
 
-URL: https://joepound-ls-ui2-great-idea.netlify.com
+### URL
+
+https://joepound-ls-ui2-great-idea.netlify.com
 
 #### Warning:
 
