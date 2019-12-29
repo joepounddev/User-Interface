@@ -2,7 +2,7 @@
 
 ## Content
 
-A sample web site for a fictional web development company named Great Idea.
+A sample web site for a fictitious web development company named Great Idea.
 
 ### URL
 

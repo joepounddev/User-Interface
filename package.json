@@ -1,6 +1,7 @@
 {
   "name": "user-interface",
-  "description": "A sample web site for a fictional web development company named Great Idea.",
+  "description": "A sample web site for a fictitious web development company named Great Idea.",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joepound/User-Interface.git"
